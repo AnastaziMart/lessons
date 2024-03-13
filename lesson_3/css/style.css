@@ -1,0 +1,64 @@
+@import url("reset.css");
+
+* {
+	color: blue;
+}
+
+header h1{
+   color: green;
+}
+
+.introduction > .introduction__text  {
+color: brown;
+}
+
+.introduction__text span {
+	color: blueviolet;
+}
+
+ p.about__history {
+	color: aqua;
+}
+  
+.about__history span {
+	color: blueviolet;
+}
+
+p.about__creator {
+	color: palevioletred;
+}
+
+p.about__creator span {
+	color: blueviolet;
+}
+
+p.result span {
+	color: orange;
+}
+
+p.result {
+	color: olivedrab;
+}
+
+p.mark__in {
+	color: blue;
+}
+
+p.mark__in span {
+	color: maroon;
+}
+
+footer li {
+	color: black;
+}
+
+.list h2 {
+	color: red;
+}
+
+
+
+
+
+
+	
