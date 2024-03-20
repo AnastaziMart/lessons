@@ -1,0 +1,179 @@
+/* Google Fonts */
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+*/
+/* Google Fonts (Plugin) */
+/*
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+Khojki:regular&display=swap");
+
+/* Локальне підключення шрифтів */
+/* @import url("fonts.css"); */
+
+/*Скидання стилів */
+@import url("reset.css");
+
+body {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  color: #0d1216;
+}
+
+* {
+  color: rgb(43, 13, 3);
+}
+
+header h1 {
+  color: brown;
+}
+
+.introduction__text {
+  color: palevioletred;
+}
+
+.types__jewelry {
+  color: aqua;
+}
+
+h2 {
+  color: darkred;
+}
+
+h3 {
+  color: maroon;
+}
+
+.link {
+  color: darkolivegreen;
+}
+
+h1 {
+  text-shadow: 5px 5px 15px rgb(52, 3, 3);
+  color: #2b2929;
+  font-size: 40px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.c right__bed {
+  width: 100%;
+  max-width: 960px;
+  margin-top: 0;
+  min-height: 350px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.text__1,
+.text__2,
+.text__3 {
+  white-space: normal;
+  color: #2b2929;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 10px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.c text__3 {
+  margin-bottom: 0;
+}
+
+.img-content {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: block;
+  max-width: 1070px;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-radius: 8px 8px 8px 8px;
+  text-align: center;
+}
+
+.img-content {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.title {
+  color: #2b2929;
+}
+
+.description__1,
+.description__2 {
+  color: #2b2929;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 10px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.description__2 {
+  margin-bottom: 0;
+}
+
+.description__3 title {
+  font-size: 20px;
+  text-align: left;
+  line-height: 64px;
+  /* 28px/20 */
+  margin-top: 40px;
+}
+
+.list__item {
+  color: #2b2929;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 10px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.list__item.item {
+  padding-left: 50px;
+}
+
+.footer__block {
+  color: #2b2929;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Proxima Nova",sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+}
+ 
