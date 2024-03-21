@@ -127,7 +127,7 @@ h1 {
   text-align: left;
   font-family: "Proxima Nova", sans-serif;
   font-weight: 400;
-  line-height: 64px;
+  line-height: 30px;
   margin-bottom: 10px;
   letter-spacing: 0;
   text-transform: none;
@@ -153,7 +153,7 @@ h1 {
   text-align: left;
   font-family: "Proxima Nova", sans-serif;
   font-weight: 400;
-  line-height: 64px;
+  line-height: 40px;
   margin-bottom: 10px;
   letter-spacing: 0;
   text-transform: none;
@@ -161,6 +161,20 @@ h1 {
 
 .list__item.item {
   padding-left: 50px;
+}
+
+.last__paragraf {
+  color: #2b2929;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 10px;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .footer__block {
@@ -172,7 +186,7 @@ h1 {
   font-family: "Proxima Nova",sans-serif;
   font-weight: 400;
   line-height: 30px;
-  margin-bottom: 0;
+  margin-bottom: 10;
   letter-spacing: 0;
   text-transform: none;
 }
