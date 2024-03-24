@@ -1,94 +1,104 @@
+/* ========================= ШРИФТИ =============================== */
+
 /* Google Fonts */
 
-/*
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
-*/
+@import url("https://fonts.googleapis.com/css2?family=Causten-Regular:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ProximaNova:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ProximaNova:wght@700&display=swap");
+
 /* Google Fonts (Plugin) */
-/*
-@import url('https://fonts.googleapis.com/css?family=Quicksand:500,600,700&display=swap');
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+Khojki:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:regular&display=swap");
 
-/* Локальне підключення шрифтів */
-/* @import url("fonts.css"); */
 
-/*Скидання стилів */
-@import url("reset.css");
+/*Локальне підключення шрифтів */
+@import url("fonts.css");
 
-body {
-  font-family: "Proxima Nova", sans-serif;
-  font-weight: 600;
-  color: #0d1216;
+ Скидання стилів 
+/*@import url("reset.css");
+
+*/
+ body {
+	font-family: "Causten";
+	font-weight: 600;
+	color: #0d1216;
 }
+
+
+.title {
+	font-size: 30px;
+}
+
+.title {
+	font-weight: 500;
+}
+
 
 * {
-  color: rgb(43, 13, 3);
+ font-family: "Causten", sans-serif;
+  
+  font-weight: 500;
 }
 
-header h1 {
-  color: brown;
-}
+
 
 .introduction__text {
-  color: palevioletred;
+ font-family: "Causten", sans-serif;
+ font-weight: 600;
+ color: rgb(34, 55, 55);
 }
 
 .types__jewelry {
-  color: aqua;
-}
-
-h2 {
-  color: darkred;
-}
-
-h3 {
-  color: maroon;
+  font-family: "Causten", sans-serif ;
+  font-weight: 600;
+  color: rgb(34, 55, 55);
 }
 
 .link {
+  font-family: "Causten", sans-serif;
+  font-weight: 600;
   color: darkolivegreen;
 }
 
 h1 {
-  text-shadow: 5px 5px 15px rgb(52, 3, 3);
-  color: #2b2929;
+  text-shadow: 5px 5px 15px rgb(160, 20, 20);
+  color: maroon;
   font-size: 40px;
-  font-style: normal;
-  margin-top: 0;
   text-align: center;
-  font-family: "Proxima Nova", sans-serif;
-  font-weight: 400;
+  font-family: "Causten", sans-serif;
+  font-weight: 700;
   line-height: 64px;
-  margin-bottom: 0;
-  letter-spacing: 0;
-  text-transform: none;
 }
 
+h2 {
+  color: maroon;
+  font-weight: 600;
+}
+
+h3 {
+  color: maroon;
+  font-weight: 500;
+}
+
+
 .c right__bed {
+  font-family: "Proxima Nova", sans-serif;
+  color: #2b2929;
   width: 100%;
   max-width: 960px;
   margin-top: 0;
   min-height: 350px;
-  text-align: left;
   margin-bottom: 0;
 }
 
 .text__1,
 .text__2,
 .text__3 {
-  white-space: normal;
-  color: #2b2929;
+  color: rgb(76, 64, 64);
   font-size: 16px;
-  font-style: normal;
-  margin-top: 0;
-  text-align: left;
   font-family: "Proxima Nova", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 30px;
   margin-bottom: 10px;
-  letter-spacing: 0;
-  text-transform: none;
 }
 
 .c text__3 {
@@ -97,14 +107,12 @@ h1 {
 
 .img-content {
   width: 100%;
-  height: auto;
-  margin: 0;
   display: block;
   max-width: 1070px;
-  border-top: 1px solid #000;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-top: 1px solid #322f2f;
+  border-left: 1px solid #322d2d;
+  border-right: 1px solid #352e2e;
+  border-bottom: 1px solid rgb(40, 37, 37);
   border-radius: 8px 8px 8px 8px;
   text-align: center;
 }
@@ -115,18 +123,20 @@ h1 {
 }
 
 .title {
-  color: #2b2929;
+  color: #646060;
+  font-weight: 500;
+  font-family: "Causten", sans-serif;
 }
 
 .description__1,
 .description__2 {
-  color: #2b2929;
+  color: #646060;
   font-size: 16px;
   font-style: normal;
   margin-top: 0;
   text-align: left;
   font-family: "Proxima Nova", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 30px;
   margin-bottom: 10px;
   letter-spacing: 0;
@@ -138,21 +148,28 @@ h1 {
 }
 
 .description__3 title {
+color: #646060;
   font-size: 20px;
+  font-weight: 500;
   text-align: left;
-  line-height: 64px;
-  /* 28px/20 */
+  line-height: 30px;
   margin-top: 40px;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+h3 description__3 {
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: 500;
 }
 
 .list__item {
-  color: #2b2929;
+  color: #646060;
   font-size: 16px;
   font-style: normal;
   margin-top: 0;
   text-align: left;
   font-family: "Proxima Nova", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 40px;
   margin-bottom: 10px;
   letter-spacing: 0;
@@ -164,13 +181,13 @@ h1 {
 }
 
 .last__paragraf {
-  color: #2b2929;
+  color: #646060;
   font-size: 16px;
   font-style: normal;
   margin-top: 0;
   text-align: left;
   font-family: "Proxima Nova", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 30px;
   margin-bottom: 10px;
   letter-spacing: 0;
@@ -178,16 +195,21 @@ h1 {
 }
 
 .footer__block {
-  color: #2b2929;
+  color: #352e2e;
   font-size: 16px;
   font-style: normal;
   margin-top: 0;
   text-align: left;
-  font-family: "Proxima Nova",sans-serif;
-  font-weight: 400;
+  font-family: "Causten", sans-serif;
+  font-weight: 500;
   line-height: 30px;
-  margin-bottom: 10;
+  margin-bottom: 0;
   letter-spacing: 0;
   text-transform: none;
 }
- 
+
+
+  
+  
+  
+  
