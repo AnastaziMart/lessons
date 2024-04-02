@@ -12,6 +12,43 @@
 @import url("reset.css");
 
 
+.block {
+	padding: 50px ;
+	margin: 25px;
+}
+
+.inline__title {
+	margin-left: 70px;
+	margin-right: 40px;
+	
+}
+
+.indentation__training h1 {
+	font-family: "Proxima Nova";
+	text-align: center;
+	font-weight: 600;
+   color: red;
+	padding: 30px;
+}
+
+   .indentation__training li {
+		margin-right: 50px;
+		margin-right: 50px;
+		color: green;
+		font-family: "Proxima Nova", sans-serif;
+		font-weight: 600;
+	}
+   
+
+.indentation__training h2 {
+	font-family: "Roboto";
+	text-align: center;
+	font-weight: 500;
+	color: blue;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
 
 body {
   font-family: "Proxima Nova", sans-serif;
