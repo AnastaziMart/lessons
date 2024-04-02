@@ -37,8 +37,12 @@
 		color: green;
 		font-family: "Proxima Nova", sans-serif;
 		font-weight: 600;
+	        height: 50px;
 	}
-   
+
+.indentation__training li span {
+		color: blueviolet;
+	}
 
 .indentation__training h2 {
 	font-family: "Roboto";
