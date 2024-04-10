@@ -1,0 +1,342 @@
+/* ========================= ШРИФТИ =============================== */
+
+/* Google Fonts */
+/* цих шрифтів нема на Google Fonts тому і помилка в валідаторі */
+  @import url("https://fonts.googleapis.com/css?family=ProximaNova-Semibold:wght@500&display=swap");
+
+  @import url("https://fonts.googleapis.com/css?family=Quicksand:600,700&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap");
+  /*Локальне підключення шрифтів */
+/*Скидання стилів */
+@import url("reset.css");
+@import url("fonts.css");
+
+
+	.header {
+		font-family: "Quicksand", sans-serif;
+		font-weight: 500;
+	}
+
+	.button__1 {
+		font-family: "Quicksand", sans-serif;
+		text-align: center;
+		background-color: palevioletred;
+		padding: 20px;
+		border-radius: 20px 10px 50px 40px;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		box-shadow: 0 5px 0px rgb(48, 34, 197);
+	   color: blueviolet;
+		font-weight: 700;
+	}
+  
+	.background__image {
+		background-attachment: scroll;
+		vertical-align: top;
+		width: 30%;
+	}
+
+	.button__2 h1 {
+		color: blueviolet;
+		font-family: "Quicksand", sans-serif;
+		font-weight: 600;
+	}
+	
+	.button__2 {
+
+		font-family: "Quicksand", sans-serif;
+		font-weight: 600;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+			margin-bottom: 15px;
+			padding: 40px;
+			height: 100px;
+			background-color: rgb(233, 236, 25);
+			border-radius: 20px 10px 50px 40px;                         
+			box-shadow:
+				inset 0 0 10px 0px rgba(231, 144, 14, 0.8),
+				5px 5px 5px 10px rgba(19, 56, 193, 0.8);
+	}
+
+
+	.button__3 h2 {
+		color: blueviolet;
+		font-family: "Quicksand", sans-serif;
+		font-weight: 600;
+	   text-transform: capitalize;
+	}
+
+
+.button__3  {
+	   font-family: "Quicksand", sans-serif;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+		padding: 30px;
+		height: 80px;
+		background-color: aqua;
+		border-radius: 20px 10px 50px 40px;
+		box-shadow: 
+		inset 0 0 10px 0px rgba(51, 21, 148, 0.8),
+		5px 5px 5px 10px rgba(41, 65, 151, 0.8);
+	}
+
+		.wrapper {
+			overflow: hidden;
+		}
+	
+		.h1 {
+			padding: 24px;
+			font-family: "Quicksand", sans-serif;
+			font-size: 56px;
+			font-weight: 700;
+			text-align: center;
+		}
+
+				.blog {
+					font-family: "Proxima Nova", sans-serif;
+					color: hsl(0deg 2% 16%);
+					background-color: hsl(0deg 0% 97%);
+				}
+		
+				.blog__container {
+					max-width: calc(1070px + 2 * 16px);
+					padding: 40px 16px;
+					margin: 0 auto;
+				}
+		
+				.blog__title {
+					font-size: 40px;
+					font-weight: 600;
+					line-height: 1.2;
+				}
+
+				.blog__content {
+				line-height: 1.87;
+				}
+				
+				.blog__content p {
+				margin-bottom: 11px;
+				}
+				
+				.blog__content img {
+				width: 100%;
+				}
+				
+				.blog__title,
+				.blog__content,
+				.blog__content :is(ul, ol, dl, img) {
+					margin-bottom: 40px;
+				}
+				
+				
+				
+				.blog__content li {
+				min-height: 32px;
+				padding-left: 47px;
+				margin-bottom: 20px;
+				background: url("../img/mark.svg") no-repeat;
+				}
+
+				.blog__sub-title {
+				margin-bottom: 30px;
+				font-size: 20px;
+				font-weight: 600;
+				line-height: 1.4;
+				}
+
+								
+				.explore {	
+					font-family: "Quicksand", sans-serif;					
+					color: hsl(0deg 0% 100%);				
+					background: url("../img/Holographic_14\ 2.png") center / cover hsl(263deg 100% 65%);
+					background-image: url("../img/Alphabet\ Patterns.png"); 
+					}
+
+					.explore__container {
+		         max-width: calc(1280px + 16px * 2);
+				   padding-inline: 16px;
+					margin-inline: auto;
+					}
+								
+					.explore__row {
+					margin-inline: calc(-133px / 2);
+					font-size: 0;
+					text-align: center;
+					}
+								
+					.explore__collection {
+				   display: inline-block;
+			      padding-inline: calc(133px / 2);
+				   font-size: 16px;
+					text-align: start;
+					vertical-align: middle;
+					}
+								
+					.explore__main {
+					padding-block: 34px;
+					max-width: 600px;
+					}
+								
+					.explore__title,
+					.explore__content {
+					margin-bottom: 24px;
+					}
+								
+				   .explore__title {
+					font-size: 40px;
+					font-weight: 700;
+					line-height: 1.2;
+					}
+								
+					.explore__content {
+					font-size: 20px;
+					font-weight: 500;
+				   line-height: 1.6;
+					}
+								
+					.explore__button {
+					padding: 11.5px 20px 11.5px 41px;
+					font-weight: 700;
+					line-height: 1.56;
+					color: hsl(207deg 26% 7%);
+					background: url("../img/button_label.png") 20px no-repeat hsl(0deg 0% 100%);
+					border-radius: 8px;
+				   }
+								
+					.explore__painting {
+					max-width: 547px;
+					}
+								
+					.explore__painting img {
+					width: 100%;
+					}
+
+
+								
+					.collections {
+					background: url("../img/Frame.svg") left 471px/ 132px no-repeat, 
+				   url("../img/Vector.svg") right / 195px no-repeat, rgba(30, 40, 50, 0.05);
+					padding: 80px 0px 60px 0px;
+					font-family: "Roboto", sans-serif;
+					font-size: 0;
+					}
+						
+					.collections__container {
+					max-width: 1256px;
+					padding: 0px 15px;
+					margin: 0 auto;
+					}
+						
+					.collections__shop {
+					display: inline-block;
+					width: 58%;
+					vertical-align: middle;
+					}
+						
+					.collections__shop p {
+					font-family: "Roboto", sans-serif;
+					font-weight: 300;
+					font-size: 30px;
+					line-height: 183.333333%;
+					/* 55/30 */
+				    margin-bottom: 66px;
+					text-transform: capitalize;
+					margin-right: 20px;
+					}
+						
+					.collections__title {          
+					font-family: "Roboto";
+		         font-size: 74px;
+					font-weight: 300;
+					line-height: 74.324324%;
+					/* 55/74 */
+					margin-bottom: 50px;
+				   }
+						
+					.collections__btn {
+					display: inline-block;
+					background-color: rgb(30, 40, 50);
+					padding: 19px 26px 19px 26px;
+					}
+						
+				  .collections__btn span {
+					background: url("../img/icon.png") top left/ 30px no-repeat;
+				   font-size: 29px;
+					display: inline-block;
+					color: rgb(255, 255, 255);
+					padding-left: 38px;
+					line-height: 117.241379%;
+					/* 34/29 */
+					text-transform: capitalize;
+					min-height: 30px;
+					}
+						
+			     .collections__media {
+				  display: inline-block;
+				  width: 42%;
+				  text-align: right;
+				  }
+						
+					.collections__image {
+					display: inline-block;
+					vertical-align: middle;
+					max-width: 424px;
+					border-radius: 35% 0 35% 0;
+					box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25),
+					-1px -1px 4px rgba(0, 0, 0, 0.25);;
+					border: 2px solid rgba(0, 0, 0, 0.25);;
+					}
+													
+							
+					.collections__image img {
+					border-radius: 35% 0 35% 0;
+					max-width: 100%;
+				   margin: -20px 18px 20px -18px;
+				   }
+							
+					@media (max-width: 822px) {
+					.collections__media {
+					display: block;
+					text-align: center;
+					width: 100%;
+					}
+							
+					.collections {
+					text-align: center;
+					}
+							
+					.collections__shop {
+					width: 100%;
+					}
+							
+					.collections__title {
+					font-size: 48px;
+					margin-bottom: 30px;
+					font-weight: 400;
+					}
+							
+					.collections__shop p {
+					display: inline-block;
+					width: 70%;
+				   font-size: 18px;
+					line-height: 188.888889%;
+					/* 34/18 */
+					margin-bottom: 30px;
+					}
+							
+					.collections__btn {
+					margin-bottom: 60px;
+					}
+					}
+
+					.footer {
+					font-family: "Quicksand", sans-serif;
+					font-weight: 700;
+					text-align: center;
+					font-size: 30px;
+					color: blueviolet;
+					margin-top: 20px;
+					margin-bottom: 20px;
+					}
