@@ -1,9 +1,6 @@
 /* ========================= ШРИФТИ =============================== */
 
 /* Google Fonts */
-/* цих шрифтів нема на Google Fonts тому і помилка в валідаторі */
-  @import url("https://fonts.googleapis.com/css?family=ProximaNova-Semibold:wght@500&display=swap");
-
   @import url("https://fonts.googleapis.com/css?family=Quicksand:600,700&display=swap");
   @import url("https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap");
   /*Локальне підключення шрифтів */
@@ -96,6 +93,7 @@
 
 				.blog {
 					font-family: "Proxima Nova", sans-serif;
+					font-weight: 400;
 					color: hsl(0deg 2% 16%);
 					background-color: hsl(0deg 0% 97%);
 				}
