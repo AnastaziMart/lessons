@@ -119,7 +119,10 @@
 				}
 				
 				.blog__content img {
-				width: 100%;
+				width: 1070px;
+				height: 380px;
+				border-radius: 8px;
+				background: url("../img/living-room.jpg") lightgray 50% / cover no-repeat;
 				}
 				
 				.blog__title,
@@ -148,13 +151,13 @@
 				.explore {	
 					font-family: "Quicksand", sans-serif;					
 					color: hsl(0deg 0% 100%);				
-					background: url("../img/Holographic_14\ 2.png") center / cover hsl(263deg 100% 65%);
+					background: url("../img/Alphabet\ Patterns.png"), url("../img/Holographic_14\ 2.png") center / cover hsl(263deg 100% 65%);
 					background-image: url("../img/Alphabet\ Patterns.png"); 
 					}
 
 					.explore__container {
-		         max-width: calc(1280px + 16px * 2);
-				   padding-inline: 16px;
+		                        max-width: calc(1280px + 16px * 2);
+				        padding-inline: 16px;
 					margin-inline: auto;
 					}
 								
