@@ -26,8 +26,6 @@
 		   font-family: "Exo", sans-serif;
 			color: #d721d7;
 			text-shadow: 2px 2px 3px #39bae5 ;
-			margin-bottom: 10px;
-			margin-left: 15px;
 		}
 
 
@@ -45,15 +43,16 @@
 	margin-right: 15px;
 }
 
+.wrapper__button {
+	text-align: center;
+}
+
 .page__button.button-1 {
 	   color: #350de9;
 		background-color: rgba(223, 151, 207, 0.926);
 		padding: 15px 20px;
 		border-radius: 32px;
 		font-size: 20px;
-		margin-left: 500px;
-		
-		
 }
 
 .page__button.button-1 span {
@@ -78,7 +77,6 @@
 	  display: inline-block;
 		background: url('../img/icon-milkshake.png') 0 0 / contain no-repeat;
 		padding-left: 34px;
-		
 }
 
 .page__button.button-2:hover {
@@ -114,6 +112,7 @@
 	   font-size: 0;
 		margin: 0 auto;
 		margin-bottom: 20px;
+	        text-align: center;
 }
 
 .training__block {
@@ -124,14 +123,14 @@
 		padding: 20px;
 		font-size: 16px;
 		background-color: #e9a40e;
-		margin-left: 180px;
 }
 
 .link__show {
 	   display: block;
 		max-width: max-content;
-		margin: 20px 0px;
-		margin-left: 250px;
+		margin: 0 auto;
+	        margin-bottom: 10px;
+	        margin-top: 10px;
 }
 
 .link__show:hover {
@@ -145,6 +144,10 @@
 
 .training__block.block-1:target {
 	display: block;
+}
+
+.block__test {
+	text-align: center;
 }
 
 .block__test-elements {
@@ -189,9 +192,6 @@
 	background-color: #0beb0e;
 	max-width: 700px;
 	margin-bottom: 40px;
-	margin-left: 400px;
-	
-	
 }
 
 .last__child-test>*:not(:last-child) {
