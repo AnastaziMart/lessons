@@ -1,0 +1,569 @@
+/* ========================= ШРИФТИ =============================== */
+
+/* Google Fonts */
+
+  @import url("https://fonts.googleapis.com/css?family=Quicksand:600,700&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Orbitron:500&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Quicksand:500&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Exo:regular,500,700&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Shantell+Sans&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Rubik+Dirt:regular&display=swap");
+
+  /*Локальне підключення шрифтів */
+/*Скидання стилів */
+@import url("reset.css");
+@import url("fonts.css");
+
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	background: url("../img/textura.jpg");
+}
+
+.content__container {
+	max-width: 100%;
+	padding: 50px;
+}
+
+.header__title {
+	font-family: 'Proxima Nova', sans-serif;
+	font-weight: 600;
+	font-size: 60px;
+	color: #121211;
+	padding: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.content__translate-cube {
+	width: 400px;
+	height: 400px;
+	background-color: rgb(12, 12, 12);
+	margin: 0 auto 150px;
+	transform: translate(0%, 0%);
+}
+
+.content__translate {
+	width: 400px;
+	height: 400px;
+	background-image: url('../img/neon-square.jpg');
+	background-size: cover;
+	background-position: top;
+}
+
+.content__translate-cube:hover .content__translate {
+	transform: translate(20%, 20%);
+}
+
+.content__scale-cube {
+	width: 400px;
+	height: 400px;
+	background-color: rgb(22, 22, 21);
+	margin: 0 auto 150px;
+	transform: scale(1);
+}
+
+.content__scale {
+	width: 400px;
+	height: 400px;
+	background-image: url('../img/neon-square.jpg');
+	background-size: cover;
+	background-position: top;
+}
+
+.content__scale-cube:hover .content__scale {
+	transform: scale(0.1);
+}
+
+.content__rotate-cube {
+	width: 400px;
+	height: 400px;
+	background-color: rgb(35, 35, 33);
+	margin: 0 auto 150px;
+	transform: rotate(0%, 0%)
+}
+
+.content__rotate {
+	width: 400px;
+	height: 400px;
+	background-image: url('../img/neon-square.jpg');
+	background-size: cover;
+	background-position: top;
+	opacity: 0.8;
+}
+
+.content__rotate-cube:hover .content__rotate {
+	transform: rotate(50deg);
+}
+
+.content__skew-cube {
+	width: 400px;
+	height: 400px;
+	background-color: rgb(15, 15, 15);
+	margin: 0 auto 150px;
+	transform: skew(0deg);
+}
+
+.content__skew {
+	width: 400px;
+	height: 400px;
+	background-image: url('../img/neon-square.jpg');
+	background-size: cover;
+	background-position: top;
+	opacity: 0.8;
+	
+}
+
+.content__skew-cube:hover .content__skew {
+	transform: skew(20deg);
+}
+
+.content__oll-cube {
+	width: 400px;
+	height: 400px;
+	background-color: rgb(19, 19, 18);
+	margin: 0 auto 150px;
+	transform: translate(0) scale(1) rotate(0deg);;
+}
+
+.content__oll {
+	width: 400px;
+	height: 400px;
+	background-image: url('../img/neon-square.jpg');
+	background-size: cover;
+	background-position: top;
+	opacity: 0.8;
+	
+}
+
+.content__oll-cube:hover .content__oll {
+	transform: translate(20%, 20%) scale(0.8) rotate(30deg);
+}
+
+.content__origin-cube {
+	width: 400px;
+	height: 400px;
+	background-color: rgb(25, 25, 24);
+	margin: 0 auto 150px;
+	transform: rotate(0deg);
+   transform-origin: center;
+}
+
+.content__origin {
+	width: 400px;
+	height: 400px;
+	background-image: url('../img/neon-square.jpg');
+	background-size: cover;
+	background-position: top;
+	opacity: 0.8;
+}
+
+.content__origin-cube:hover .content__origin {
+	transform-origin: 5px 3px;
+	transform: rotate(20deg);
+}
+
+.content__perspective-cube {
+	width: 400px;
+	height: 400px;
+	background-color: rgb(14, 14, 14);
+	margin: 0 auto 150px;
+	perspective: 100px;
+	perspective-origin: center;
+	transform: rotateX(0deg);
+}
+
+.content__perspective {
+	width: 400px;
+	height: 400px;
+	background-image: url('../img/neon-square.jpg');
+	background-size: cover;
+	background-position: top;
+	opacity: 0.8;
+	
+}
+
+.content__perspective-cube:hover .content__perspective {
+	transform: rotateX(10deg);
+}
+
+.content__perspective-rotate-cube {
+	width: 400px;
+	height: 400px;
+	background-color: rgb(23, 23, 23);
+	margin: 0 auto 150px;
+	perspective: 200px;
+	perspective-origin: center;
+	transform: rotate3d(1, 1, 1, 0deg);
+}
+
+.content__perspective-rotate {
+	width: 400px;
+	height: 400px;
+	background-image: url('../img/neon-square.jpg');
+	background-size: cover;
+	background-position: top;
+	opacity: 0.8;
+}
+	
+
+.content__perspective-rotate-cube:hover .content__perspective-rotate {
+	transform: rotate3d(12, 14, 20, 20deg);
+}
+
+
+.content__style-cube {
+	width: 400px;
+	height: 400px;
+	background-color: rgb(22, 22, 22);
+	margin: 0 auto 150px;
+	perspective: 200px;
+	transform-style: preserve-3d;
+	opacity: 0.8;
+   transform: rotateY(0deg);
+}
+
+.content__style {
+	width: 400px;
+	height: 400px;
+	background-image: url('../img/neon-square.jpg');
+	background-size: cover;
+	background-position: top;
+	opacity: 0.8;
+	
+}
+
+.content__style:hover {
+	transform: rotateY(20deg);
+}
+
+.footer {
+	background: linear-gradient(45deg,
+			rgb(8, 52, 182) 50%,
+			rgb(199, 225, 27) 70%);
+	padding: 15px;
+}
+
+.footer__text {
+	font-family: "Exo", sans-serif;
+	font-weight: 700;
+	color: #eb6fd4;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 3px #ed57d9;
+}
+/* ==================================================================== */
+
+
+ .car {
+ 	width: 100%;
+ 	height: 500px;
+	background-image: url('../img/night-road-2.webp');
+ }
+
+ .car__body {
+ 	position: relative;
+ 	width: 700px;
+ 	height: 300px;
+ 	top: 170px;
+	left: calc(60% - 350px);
+ }
+
+
+ .car__carcass {
+ 	position: absolute;
+ 	bottom: 10px;
+ 	left: 20px;
+ 	width: 300px;
+ 	height: 128px;
+ 	border: 1px solid black;
+ 	border-right: transparent;
+ 	border-radius: 194% 238% 47% 157% / 152% 0 59% 206%;
+ 	background: #e85ecc;
+ 	z-index: 3;
+ }
+
+ .car__front {
+ 	position: absolute;
+ 	bottom: 8.2px;
+ 	left: 284px;
+ 	width: 220px;
+ 	height: 112px;
+ 	border: 1px solid black;
+ 	border-left: 1px solid transparent;
+ 	background: #e15dae;
+ 	border-radius: 0% 100% 41% 135% / 75% 57% 55% 7%;
+ 	transform: rotate(1deg);
+ 	z-index: 5;
+ }
+
+ .car__top {
+ 	position: absolute;
+ 	top: 106px;
+ 	left: 84px;
+ 	width: 265px;
+ 	height: 80px;
+ 	background: #f062df;
+ 	transform: skew(40deg);
+ 	border: 1px solid black;
+ 	border-radius: 31% 74% 136% 3% / 69% 32% 16% 215%;
+ 	z-index: 2;
+ }
+
+ .car__bottom {
+ 	position: absolute;
+ 	bottom: 6px;
+ 	right: 227px;
+ 	width: 450px;
+ 	height: 50px;
+ 	border-radius: 24% 137% 65% 24% / 0% 152% 12% 88%;
+ 	background: black;
+ 	z-index: 5;
+ }
+
+ .car__front-element {
+ 	position: absolute;
+ 	right: 206px;
+ 	bottom: 20px;
+ 	width: 30px;
+ 	height: 10px;
+ 	background: linear-gradient(45deg,
+ 			rgb(239, 235, 21) 56%,
+ 			rgb(245, 241, 14) 73%);
+ 	border-radius: 7px;
+ 	box-shadow: 3px 3px 10px rgb(235, 228, 19);
+ 	transform: rotate(-5deg);
+ 	z-index: 5;
+ }
+
+ .car__front-element:hover~.car__bottom {
+ 	box-shadow: 20px 15px 20px 3px rgb(26, 30, 30);
+ }
+
+ .car__mirror-front {
+ 	position: absolute;
+ 	top: 114px;
+ 	left: 259px;
+ 	width: 80px;
+ 	height: 66px;
+ 	border: 5px solid black;
+ 	border-left: transparent;
+ 	border-top-right-radius: 10px;
+ 	transform: skew(37deg);
+ 	background-color: #3cf3ea;
+ 	z-index: 5;
+ }
+
+ .car__mirror-front-element {
+ 	position: absolute;
+ 	top: 114px;
+ 	left: 229px;
+ 	width: 60px;
+ 	height: 66px;
+ 	background-color: #3cf3ea;
+ 	border: 5px solid black;
+ 	transform: skew(5deg);
+ 	z-index: 3;
+ }
+
+ .car__rearview-mirror {
+ 	position: absolute;
+ 	top: 164px;
+ 	left: 323px;
+ 	width: 35px;
+ 	height: 20px;
+ 	background: linear-gradient(45deg,
+ 			rgba(30, 25, 32, 1) 56%,
+ 			rgb(87, 228, 240) 73%);
+ 	border-radius: 8% 92% 21% 79% / 53% 87% 1% 47%;
+ 	transform: rotate(-15deg);
+ 	z-index: 6;
+ }
+
+ .car__mirror-back {
+ 	position: absolute;
+ 	top: 114px;
+ 	left: 87px;
+ 	width: 123px;
+ 	height: 66px;
+ 	border: 5px solid black;
+ 	border-left: 12px solid black;
+ 	background-color: #3cf3ea;
+ 	border-bottom-left-radius: 10px;
+ 	border-top-left-radius: 10px;
+ 	transform: skew(-14deg);
+ 	z-index: 3;
+ }
+
+ .car__between-mirrors {
+ 	position: absolute;
+ 	top: 114px;
+ 	left: 196px;
+ 	width: 40px;
+ 	border-bottom: 66.5px solid black;
+ 	border-right: 10px solid transparent;
+ 	border-left: 8px solid transparent;
+ 	z-index: 3;
+ }
+
+ .car__back-element {
+ 	position: absolute;
+ 	top: 115px;
+ 	left: 51px;
+ 	width: 40px;
+ 	height: 90px;
+ 	border-radius: 21% 79% 0% 100% / 100% 82% 18% 0%;
+ 	border-left: 1px solid black;
+ 	background: #ec56bd;
+ 	transform: rotate(18deg);
+ 	z-index: 2;
+ }
+
+ .car__gastank {
+ 	position: absolute;
+ 	top: 191px;
+ 	left: 56px;
+ 	width: 25px;
+ 	height: 15px;
+ 	border: 1px solid black;
+ 	border-radius: 5px 10px 10px 5px;
+ 	z-index: 5;
+ }
+
+ .car__door-back {
+ 	position: absolute;
+ 	top: 178px;
+ 	left: 85px;
+ 	width: 133px;
+ 	height: 72px;
+ 	border: 1px solid black;
+ 	border-radius: 0px 0px 5px 30px;
+ 	z-index: 3;
+ }
+
+ .car__door-front {
+ 	position: absolute;
+ 	top: 178px;
+ 	left: 218px;
+ 	width: 143px;
+ 	height: 76px;
+ 	border: 1px solid black;
+ 	border-left: 1px solid transparent;
+ 	border-radius: 0px 0px 5px 5px;
+ 	z-index: 5;
+ }
+
+ .car__handle-back {
+ 	position: absolute;
+ 	top: 189px;
+ 	left: 102px;
+ 	width: 28px;
+ 	height: 6px;
+ 	background: linear-gradient(45deg,
+ 			rgba(30, 25, 32, 1) 56%,
+ 			rgb(234, 112, 230) 73%);
+ 	border: 1px solid black;
+ 	border-radius: 0px 0px 5px 5px;
+ 	z-index: 6;
+ }
+
+ .car__handle-front {
+ 	position: absolute;
+ 	top: 189px;
+ 	left: 232px;
+ 	width: 28px;
+ 	height: 6px;
+ 	background: linear-gradient(45deg,
+ 			rgba(30, 25, 32, 1) 56%,
+ 			rgb(222, 118, 215) 73%);
+ 	border: 1px solid black;
+ 	border-radius: 0px 0px 5px 5px;
+ 	z-index: 6;
+ }
+
+ .car__exhaust {
+ 	position: absolute;
+ 	top: 250px;
+ 	left: 19px;
+ 	width: 10px;
+ 	height: 15px;
+ 	background: #11041e;
+ 	border: 1px solid black;
+ 	border-radius: 5px 0px 0px 5px;
+ }
+
+ .car__wheel-back {
+ 	position: absolute;
+ 	top: 236px;
+ 	left: 88px;
+ 	width: 90px;
+ 	height: 90px;
+ 	border-radius: 50%;
+ 	background: #262422;
+ 	z-index: 5;
+ }
+
+ .car__wheel-front {
+ 	position: absolute;
+ 	top: 236px;
+ 	left: 318px;
+ 	width: 90px;
+ 	height: 90px;
+ 	border-radius: 50%;
+ 	background: #262422;
+ 	z-index: 5;
+ }
+
+ .car__wheel-front img,
+ .car__wheel-back img {
+ 	width: 100%;
+ 	height: 100%;
+ 	transition: all 0.5s;
+ 	border: 6px solid black;
+ 	border-radius: 50%;
+ }
+
+ .car__wheel-front:hover img,
+ .car__wheel-back:hover img {
+ 	transform: rotate(180deg);
+ }
+
+ .car__headlight-front {
+ 	position: absolute;
+ 	right: 193px;
+ 	bottom: 84px;
+ 	width: 50px;
+ 	height: 15px;
+ 	background-color: rgb(243, 243, 59);
+ 	border-radius: 0% 100% 0% 100% / 20% 48% 52% 80%;
+ 	transition: all 0.3s;
+ 	z-index: 5;
+	border: 2px solid black;
+ }
+
+ .car__headlight-front:hover {
+ 	box-shadow: 20px 3px 10px 5px rgb(185, 165, 68);
+ }
+
+ .car__headlight-back {
+ 	position: absolute;
+ 	left: 21px;
+ 	top: 185px;
+ 	width: 20px;
+ 	height: 25px;
+ 	background-color: rgba(236, 236, 20, 0.981);
+ 	border: 2px solid black;
+ 	border-radius: 13% 100% 21% 42% / 32% 82% 18% 83%;
+ 	transform: rotate(96deg);
+ 	transition: all 0.3s;
+ 	z-index: 5;
+ }
+
+ 
+
