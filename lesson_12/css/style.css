@@ -1,0 +1,392 @@
+/* ========================= ШРИФТИ =============================== */
+
+/* Google Fonts */
+
+  @import url("https://fonts.googleapis.com/css?family=Quicksand:600,700&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Orbitron:500&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Quicksand:500&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Exo:regular,500,700&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Shantell+Sans&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Rubik+Dirt:regular&display=swap");
+
+  /*Локальне підключення шрифтів */
+/*Скидання стилів */
+@import url("reset.css");
+@import url("fonts.css");
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+}
+
+.header__container {
+	font-family: "Quicksand", sans-serif;
+	font-size: 700px;
+	position: relative;
+	background-color: #3d0336;
+	padding: 15px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+}
+
+.header__title {
+	font-size: 80px;
+	color: #e5d9e3;
+	font-weight: 600;
+}
+
+.road {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background: url("../img/lighthouse-city-bay-shore-cartoon_1441-3158.avif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	
+}
+
+.car img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	animation: move 3s
+	linear infinite;
+}
+
+@keyframes move {
+	0% {
+		transform: translateX(70vh);
+	}
+
+	33% {
+		opacity: 0.9;
+	}
+
+	50% {
+		opacity: 0.7;
+	}
+
+	75% {
+		opacity: 0.3;
+	}
+
+	100% {
+		transform: translateX(-80vh);
+		opacity: 0;
+	}
+}
+
+
+.ghost__body {
+	position: relative;
+	height: 200px;
+	width: 160px;
+	border-top-right-radius: 80px;
+	border-top-left-radius: 80px;
+	background-color: aliceblue;
+	animation: float 4s ease infinite;
+	margin: 0 auto;
+	opacity: 50%;
+
+}
+
+@keyframes float {
+
+	0%,
+	100% {
+		top: 150px;
+	}
+
+	40% {
+		top: 0;
+	}
+}
+
+
+.face {
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 67px;
+	left: 37px;
+	height: 41px;
+	width: 72px;
+}
+
+.eye {
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+	background-color: black;
+}
+
+.eye-left {
+	margin-right: 32px;
+}
+
+.smile {
+	height: 16px;
+	width: 32px;
+	margin-top: 6px;
+	margin-left: 20px;
+	background-color: black;
+	border-bottom-left-radius: 16px 12px;
+	border-bottom-right-radius: 16px 12px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.rosy {
+	position: absolute;
+	top: 28px;
+	width: 22px;
+	height: 8px;
+	border-radius: 100%;
+	background-color: coral;
+}
+
+.rosy-left {
+	left: -6px;
+	transform: rotate(-8deg);
+}
+
+.rosy-right {
+	right: -6px;
+	transform: rotate(8deg);
+}
+
+.arm {
+	position: absolute;
+	top: 136px;
+	height: 40px;
+	width: 60px;
+	background-color: aliceblue;
+}
+
+.arm-left {
+	left: -4px;
+	border-radius: 60% 100%;
+	animation: arm-left 4s ease infinite;
+}
+
+@keyframes arm-left {
+
+	0%,
+	100% {
+		transform: translate(-50%, -50%) rotate(50deg);
+	}
+
+	40% {
+		transform: translate(-50%, -50%) rotate(40deg);
+	}
+}
+
+.arm-right {
+	right: -65px;
+	border-radius: 100% 60%;
+	animation: arm-right 4s ease infinite;
+}
+
+@keyframes arm-right {
+
+	0%,
+	100% {
+		transform: translate(-50%, -50%) rotate(-50deg);
+	}
+
+	40% {
+		transform: translate(-50%, -50%) rotate(-40deg);
+	}
+}
+
+.bottom {
+	display: flex;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: -1px;
+}
+
+.bottom div {
+	flex-grow: 1;
+	position: relative;
+	top: -14px;
+	height: 28px;
+	border-radius: 100%;
+	background-color: aliceblue;
+}
+
+.bottom div:nth-child(2n) {
+	top: -10px;
+	margin: 0 -2px;
+	border-top: 10px solid #f0efda;
+	background: transparent;
+}
+
+
+.graveyard {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background: url("../img/cemetery.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+
+
+html:hover .spider {
+  top: -120%;
+  
+}
+
+.spider {
+	
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	left: 30%;
+	animation: swing 2s infinite;
+	transform-origin: top;
+	transition: 1s ease-in-out;
+	
+}
+
+
+.spider .spiderweb {
+	background: rgba(255, 255, 255, .7);
+	width: 2px;
+	height: 200px;
+	margin-left: 49px;
+	
+	
+}
+
+
+.spider .body {
+	
+	width: 100px;
+	height: 80px;
+	background: #000;
+	position: relative;
+	border-radius: 50%;
+}
+
+.spider .body .eye {
+	width: 33px;
+	height: 33px;
+	background: #fff;
+	position: absolute;
+	bottom: 20px;
+	border-radius: 50%;
+}
+
+.spider .body .eye.right {
+	right: 15px;
+}
+
+.spider .body .eye.left {
+	left: 15px;
+}
+
+.spider .body .eye:after {
+	background: #000;
+	width: 7px;
+	height: 7px;
+	content: '';
+	display: block;
+	margin: 55%;
+	border-radius: 50%;
+	animation: look 8s infinite;
+}
+
+
+.spider .legs .leg {
+	width: 80px;
+	height: 40px;
+	margin-top: -20px;
+	border: 5px solid transparent;
+	border-top-color: #000;
+	border-radius: 40px 40px 0 0;
+}
+
+.spider .legs {
+	position: absolute;
+	bottom: -10%;
+	z-index: -1;
+}
+
+.spider .legs.left {
+	left: -70%;
+}
+
+.spider .legs.right {
+	right: -60%;
+}
+
+.legs.left .leg:nth-child(1) {
+	transform: rotate(10deg);
+	margin-left: 10px;
+}
+
+.legs.right .leg:nth-child(1) {
+	transform: rotate(-10deg);
+	margin-left: -10px;
+}
+
+
+.legs.left .leg:nth-child(2) {
+	transform: rotate(-20deg);
+	margin-left: 20px;
+}
+
+.legs.right .leg:nth-child(2) {
+	transform: rotate(20deg);
+	margin-left: -20px;
+}
+
+
+.legs.left .leg:nth-child(3) {
+	transform: rotate(-50deg);
+	margin-left: 30px;
+}
+
+.legs.right .leg:nth-child(3) {
+	transform: rotate(50deg);
+	margin-left: -30px;
+}
+
+@keyframes look {
+	0%, 40%, 100% {
+		transform: translateX(0);
+	}
+	45%, 95% {
+		transform: translateX(-110%);
+	}
+}
+
+@keyframes swing {
+	0%, 100% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-20px) ;
+	}
+}
+
+
