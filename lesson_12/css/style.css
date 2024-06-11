@@ -26,7 +26,7 @@
 	overflow: clip;
 }
 
-.header__container {
+.header {
 	font-family: "Quicksand", sans-serif;
 	font-size: 700px;
 	position: relative;
@@ -388,5 +388,3 @@ html:hover .spider {
 		transform: translateY(-20px) ;
 	}
 }
-
-
