@@ -346,6 +346,13 @@ body {
 	
 }
 
+.body-header__search-form button[type="submit"] {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+
+
 @media (any-hover:hover) {
 	.search-body-header__input:hover {
 		border-color: #ffbc57;
